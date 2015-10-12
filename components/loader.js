@@ -75,6 +75,9 @@ export const Loader = React.createClass({
     } else {
       classes += ' loader-hidden'
     }
+    
+    classes += ' '+ this.props.className
+    
     return classes;
   },
 
